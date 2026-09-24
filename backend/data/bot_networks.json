@@ -1,0 +1,38 @@
+{
+  "known_bot_signatures": [
+    {"id": "sig-001", "pattern": "account_age_days",               "threshold": 30,   "description": "Account created within 30 days"},
+    {"id": "sig-002", "pattern": "post_frequency_per_hour",        "threshold": 20,   "description": "More than 20 posts per hour"},
+    {"id": "sig-003", "pattern": "identical_content_ratio",        "threshold": 0.80, "description": "80%+ posts identical to cluster members"},
+    {"id": "sig-004", "pattern": "follow_unfollow_ratio",          "threshold": 0.95, "description": "Follow-unfollow churn ratio > 0.95"},
+    {"id": "sig-005", "pattern": "coordinated_window_seconds",     "threshold": 60,   "description": "Posts within 60s of other cluster members"}
+  ],
+  "known_networks": [
+    {
+      "network_id":        "net-pulse-2026",
+      "campaign_id":       "campaign-001",
+      "origin_as":         "AS-47764",
+      "bot_cluster_count": 4,
+      "estimated_accounts": 847,
+      "first_seen":        "2026-05-14T02:17:00Z",
+      "confidence":        0.94
+    },
+    {
+      "network_id":        "net-medfear-2026",
+      "campaign_id":       "campaign-002",
+      "origin_as":         "AS-21309",
+      "bot_cluster_count": 3,
+      "estimated_accounts": 312,
+      "first_seen":        "2026-06-01T08:45:00Z",
+      "confidence":        0.91
+    },
+    {
+      "network_id":        "net-reviewstorm-2026",
+      "campaign_id":       "campaign-003",
+      "origin_as":         "AS-55836",
+      "bot_cluster_count": 2,
+      "estimated_accounts": 156,
+      "first_seen":        "2026-06-10T16:22:00Z",
+      "confidence":        0.82
+    }
+  ]
+}
