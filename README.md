@@ -1,4 +1,17 @@
 # ShadowTrace
+> An AI-powered misinformation and threat intelligence platform.
+
+## 🔗 Live Demo
+
+https://shadow-trace-lilac.vercel.app/
+
+## 🎥 Demo Video
+
+https://youtu.be/Alw_jawXaWA
+
+## 💻 Source Code
+
+https://github.com/Anushka-Btech/ShadowTrace
 
 ### AI-Powered Intelligence & Investigation Platform
 
